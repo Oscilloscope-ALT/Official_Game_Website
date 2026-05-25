@@ -1,0 +1,28 @@
+.greetings {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.shtrih img{
+    max-height: 50vh;
+  width: auto;
+}
+.dialog img{
+    max-height: 25vh;
+  width: auto;
+}
+.shtrih,.dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
