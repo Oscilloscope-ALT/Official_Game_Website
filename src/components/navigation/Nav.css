@@ -1,0 +1,22 @@
+.nav{
+  max-width: 1200px;
+  width: 100%;
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 16px 16px;
+  box-sizing: border-box;
+  background-color: cadetblue;
+}
+.nav-list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-list li {
+  white-space: nowrap;
+}
