@@ -1,7 +1,34 @@
-@media (max-width: 768px)
+@font-face {
+  font-family: "Determination Sans";
+  src: 
+    url("./assets/fonts/Determination-Sans.woff2") format("woff2"),
+    url("./assets/fonts/Determination-Sans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Monster Friend Fore";
+  src: 
+  url("./assets/fonts/Monster-Friend-Fore.woff2") format("woff2"),
+  url("./assets/fonts/Monster-Friend-Fore.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
+body{
+  font-family: "Determination Sans", sans-serif;
+  color: aliceblue;
+  background-color: black;
+}
+h1,h2{
+  font-family: "Monster Friend Fore", sans-serif;
+  color: aliceblue;
+}
+
 .main-contener{
   max-width: 1200px;
   margin: 0 auto;
