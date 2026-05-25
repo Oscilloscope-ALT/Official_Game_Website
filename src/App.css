@@ -22,6 +22,7 @@ html {
 body{
   font-family: "Determination Sans", sans-serif;
   color: aliceblue;
+  background-image: url("./assets/background/site_background.png");
   background-color: black;
 }
 h1,h2{
