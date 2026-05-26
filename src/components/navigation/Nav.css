@@ -17,6 +17,10 @@
   padding: 0;
   list-style: none;
 }
+.nav-list a{
+  font-size: clamp(14px, 2vw, 32px);  
+  color: white;
+}
 .nav-list li {
   white-space: nowrap;
 }
