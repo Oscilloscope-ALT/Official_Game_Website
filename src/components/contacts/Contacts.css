@@ -5,5 +5,10 @@
   margin: 0;
   padding: 16px 16px;
   box-sizing: border-box;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
+}
+.contacts{
+  list-style: none;
+  display: flex;
+  gap: clamp(18px, 1.5vw, 24px); 
 }

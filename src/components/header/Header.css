@@ -9,5 +9,6 @@
   display: flex;
   padding: 16px 16px;
   box-sizing: border-box;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  font-size: clamp(14px, 2vw, 32px);  
 }
