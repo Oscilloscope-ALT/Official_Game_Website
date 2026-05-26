@@ -8,7 +8,7 @@ export default function AboutUs(){
           <h2>about us</h2>
           <div className="about-content">
             <div className="about-img">
-                <img src={Salusha} alt="" />
+                <img src={Salusha} alt="the character from the game, whose name is Salusha" />
             </div>
             <div className="about-text">
                 Shtrik the cat and friends is single-player browser game. What do you expect when you see this cat? Just play with this cute Shtrik and you'll find out where his friends are... or... nevermind, just play with him. But please, be patient before you start or you will understand...
@@ -16,7 +16,7 @@ export default function AboutUs(){
           </div>
 
           <div className="about-end">
-            <img src={PC} alt="" />
+            <img src={PC} alt="pixel PC" />
           </div>
         </section>
     );

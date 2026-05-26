@@ -17,7 +17,7 @@
   max-height: 50vh;
   width: auto;
 }
-.dialog_container{
+.dialogue_container{
   display: inline-flex;
   justify-content: center;
   position: relative;
@@ -29,7 +29,7 @@
   padding: 24px 24px;
   font-size: clamp(14px, 2vw, 32px);  
 }
-.dialog_container img{
+.dialogue_container img{
   max-height: 25vh;
   width: auto;
   display: block;

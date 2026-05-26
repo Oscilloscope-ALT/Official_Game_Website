@@ -7,10 +7,10 @@ export default function Greetings(){
           <section className="greetings" id='greetings'>
             <div className="container">
                 <div className='shtrih'>
-                    <img src={Shtrih} alt="The main character - the cat Shtrih" />
+                    <img src={Shtrih} alt="The main character-Shtrih" />
                 </div>
-                <div className='dialog_container'>
-                    <img src={DialogBackground} alt=""/>
+                <div className='dialogue_container'>
+                    <img src={DialogBackground} alt="background for dialogues"/>
                     <div className="text_container">
                         *   hi there, buddy! do you wanna hang out with me and my friends? it will be nice if you join us! 。.:☆*:･'(*⌒―⌒*)))
                     </div>

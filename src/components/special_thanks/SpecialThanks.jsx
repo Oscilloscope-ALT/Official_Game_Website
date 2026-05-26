@@ -11,11 +11,11 @@ export default function SpecialThanks(){
                     thanks to 
                 </div>
                 <div className="thanks-img">
-                    <img src={Dein} alt="" />
+                    <img src={Dein} alt="pixelated chinese nine-tailed fox" />
                 </div>    
             </div>
             <div className="thanks-end">
-                    <img src={Noddles} alt="" />
+                    <img src={Noddles} alt="instant pixel noodles" />
             </div>
         </section>
     );

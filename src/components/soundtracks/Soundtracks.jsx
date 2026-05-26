@@ -11,7 +11,7 @@ export default function Soundtracks(){
           </div>
           <div className="ost-content">
             <div className="cat-img">
-                <img src={Cat} alt="" />
+                <img src={Cat} alt="the pixel ghost cat" />
             </div>
             <div className="ost-list">
                 <ul>
@@ -19,7 +19,7 @@ export default function Soundtracks(){
                 </ul>
             </div>
             <div className="dog-img">
-                <img src={Dogs} alt="" />
+                <img src={Dogs} alt="the pixel ghost dog" />
             </div>
           </div>
         </section>

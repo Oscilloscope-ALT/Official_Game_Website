@@ -8,12 +8,12 @@ export default function WhereToPlay(){
             <h2>Where to play</h2>
             <div className="to-play-content">
                 <figure className="github-logo">
-                    <img src={GitHubLogo} alt="" />
+                    <img src={GitHubLogo} alt="github logo" />
                     <figcaption>already available</figcaption>
 
                 </figure>
                 <figure className="steam-logo">
-                    <img src={SteamLogo} alt="" />
+                    <img src={SteamLogo} alt="steam logo" />
                     <figcaption>soon</figcaption>
                 </figure>
             </div>
