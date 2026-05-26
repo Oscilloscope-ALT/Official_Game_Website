@@ -3,7 +3,7 @@ import "./AboutUs.css"
 export default function AboutUs(){
     return(
         <section className='about-us' id='about-us'>
-          <h2>about-game</h2>
+          <h2>about us  </h2>
         </section>
     );
 }

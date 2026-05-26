@@ -1,6 +1,6 @@
 import "./Greetings.css"
 import Shtrih from '../../assets/imgs/Shtrih.png'
-import DialogBackground from "../../assets/imgs/dialog_background.png"
+import DialogBackground from "../../assets/background/dialog_background.png"
 
 export default function Greetings(){
     return(

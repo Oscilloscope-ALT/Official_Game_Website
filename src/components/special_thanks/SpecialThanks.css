@@ -1,0 +1,29 @@
+.thanks-content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.thanks-img{
+    padding: 24px;
+    height: 25vh;
+    width: auto;
+    display: flex;
+}
+.thanks-text{
+    flex: 1;
+}
+.thanks-end{
+    padding: 24px;
+    height: 15vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
