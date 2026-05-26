@@ -13,10 +13,12 @@ export default function AboutGame(){
             <div className="about-txt">Shtrik the cat and friends is single-player browser game. 
                 What do you expect when you see this cat? Just play with this cute Shtrik and you'll find out where his friends are...
                 or... nevermind, just play with him. But please, be patient before you start or you will understand...</div>
-          </div>
+            </div>
+
           <div className="about-end">
             <img src={Boots} alt="" />
           </div>
+
         </section>
     );
 }
