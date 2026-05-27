@@ -14,6 +14,15 @@
   font-weight: normal;
   font-style: normal;
 }
+@keyframes moveBackground{
+  from{
+    background-position: 0 0;
+  }
+
+  to{
+    background-position: 200px 200px;
+  }
+}
 
 html {
   scroll-behavior: smooth;
@@ -23,6 +32,7 @@ body{
   font-family: "Determination Sans", sans-serif;
   color: white;
   background-image: url("./assets/background/site_background.png");
+  animation: moveBackground 20s linear infinite;
   background-color: black;
   font-size: clamp(14px, 2vw, 32px);  
 }
@@ -51,18 +61,24 @@ p,h1{
   margin: 0;
 }
 a{
-    text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
 }
 a:link {
-  color: white; /* обычная ссылка */
+  color: white; 
 }
 
 a:visited {
-  color: yellow; /* уже посещённая */
+  color: yellow; 
 }
 
 a:hover {
-  color: yellow; /* при наведении */
+  color: yellow;
+  transform: scale(1.08); 
 }
 
 a:active {
