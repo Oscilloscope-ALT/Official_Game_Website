@@ -5,6 +5,8 @@
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
 }
 img{
     max-width: 100%;
@@ -12,7 +14,6 @@ img{
     display: block;
 }
 .thanks-img{
-    padding: 24px;
     height: 25vh;
     width: auto;
     display: flex;

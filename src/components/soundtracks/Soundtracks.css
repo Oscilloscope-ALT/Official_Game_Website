@@ -1,0 +1,27 @@
+.ost-content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.dog-img, .cat-img{
+    height: 25vh;
+    width: auto;
+    display: flex;
+}
+.ost-list{
+    flex: 1;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}

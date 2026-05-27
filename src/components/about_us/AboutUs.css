@@ -12,7 +12,7 @@ img{
     display: block;
 }
 .about-img{
-    padding: 16px;
+    padding: 0;
     height: 25vh;
     width: auto;
     display: flex;

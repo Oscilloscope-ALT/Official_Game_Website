@@ -7,9 +7,9 @@ export default function Nav(){
           <li><a href="#about-game">about game</a></li>
           <li><a href="#soundtracks">soundtracks</a></li>
           <li><a href="#where-to-play">where to play</a></li>
-          <li><a href="#soundtracks">special thanks</a></li>
+          <li><a href="#special-thanks">special thanks</a></li>
           <li><a href="#about-us">about us</a></li>
-          <li><a href="#about-us">contacts</a></li>         
+          <li><a href="#contacts">contacts</a></li>         
         </ul>
       </nav>
     );

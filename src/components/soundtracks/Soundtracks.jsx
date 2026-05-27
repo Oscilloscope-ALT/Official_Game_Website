@@ -15,7 +15,12 @@ export default function Soundtracks(){
             </div>
             <div className="ost-list">
                 <ul>
-                    <li>mike shinoda</li>
+                    <li>Mike Shinoda - Ghosts</li>
+                    <li>Linkin Park - One More Light</li>
+                    <li>Bring Me The Horizon - wonderful life</li>
+                    <li>Bring Me The Horizon - Happy Song</li>
+                    <li>Toby Fox - Memory</li>
+                    <li>rnlbot - intro</li>
                 </ul>
             </div>
             <div className="dog-img">
