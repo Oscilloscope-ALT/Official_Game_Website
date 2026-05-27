@@ -10,5 +10,5 @@
 .contacts{
   list-style: none;
   display: flex;
-  gap: clamp(18px, 1.5vw, 24px); 
+  gap: clamp(24px, 1.5vw, 32px); 
 }

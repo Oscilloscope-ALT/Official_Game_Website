@@ -50,3 +50,21 @@ h1,h2{
 p,h1{
   margin: 0;
 }
+a{
+    text-decoration: none;
+}
+a:link {
+  color: white; /* обычная ссылка */
+}
+
+a:visited {
+  color: yellow; /* уже посещённая */
+}
+
+a:hover {
+  color: yellow; /* при наведении */
+}
+
+a:active {
+  color: red; /* во время клика */
+}

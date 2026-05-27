@@ -7,11 +7,12 @@ export default function WhereToPlay(){
         <section id='where-to-play'>
             <h2>Where to play</h2>
             <div className="to-play-content">
-                <figure className="github-logo">
-                    <img src={GitHubLogo} alt="github logo" />
-                    <figcaption>already available</figcaption>
-
-                </figure>
+                <a href="https://github.com/Oscilloscope-ALT/Lab3-Digital_Department_SFedU" target="_blank" rel="noopener noreferrer">
+                    <figure className="github-logo">
+                        <img src={GitHubLogo} alt="github logo" />
+                        <figcaption>already available</figcaption>
+                    </figure>
+                </a>
                 <figure className="steam-logo">
                     <img src={SteamLogo} alt="steam logo" />
                     <figcaption>soon</figcaption>
