@@ -10,6 +10,3 @@
     align-items: center;
     font-size: clamp(12px, 1.5vw, 24px);
 }
-.github-logo figcaption {
-    color: yellow;
-}

@@ -1,5 +1,5 @@
 .head{
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   min-height: 15vh;
   margin: 0 auto;
@@ -10,5 +10,5 @@
   padding: 16px 16px;
   box-sizing: border-box;
   /* background-color: aquamarine; */
-  font-size: clamp(14px, 2vw, 32px);  
+  font-size: clamp(11px, 2vw, 24px);  
 }
