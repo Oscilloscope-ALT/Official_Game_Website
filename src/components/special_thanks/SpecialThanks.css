@@ -30,3 +30,23 @@ img{
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px){
+    .thanks-content{
+        flex-direction: column-reverse; 
+        align-items: center;   
+        text-align: center;
+    }
+    .thanks-img{
+        height: 25vw;
+        width: auto;
+        display: flex;
+    }
+    .thanks-end{
+        padding: 24px;
+        height: 15vw;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

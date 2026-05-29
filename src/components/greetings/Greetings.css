@@ -41,3 +41,18 @@ img{
   height: auto;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .shtrih img{
+  max-height: 25vh;
+  width: auto;
+  }
+  .text_container{
+    padding: 4px;
+  }
+  .dialogue_container img{
+  max-height: 12.5vh;
+  width: auto;
+  display: block;
+}
+}

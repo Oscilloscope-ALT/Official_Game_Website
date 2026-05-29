@@ -23,7 +23,9 @@
     background-position: 200px 200px;
   }
 }
-
+*{
+  margin: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -40,11 +42,17 @@ h1,h2{
   font-family: "Monster Friend Fore", sans-serif;
   color: white;
 }
-
+h1{
+  font-size: clamp(14px, 3vw, 48px);
+}
+h2{
+  font-size: clamp(14px, 2vw, 24px);
+}
 .main-contener{
   max-width: 1200px;
-  margin: 0 auto;
   box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
   /* background-color: blue; */
 }
 .main{
@@ -52,13 +60,9 @@ h1,h2{
   width: 100%;
   min-height: 675px;
   align-items: center;
-  margin: 0 auto;
   padding: 16px 16px;
   box-sizing: border-box;
   /* background-color: brown; */
-}
-p,h1{
-  margin: 0;
 }
 a{
   text-decoration: none;
@@ -68,19 +72,28 @@ a{
     transform 0.2s ease,
     color 0.2s ease;
 }
+section{
+  padding: 16px 16px;
+}
+
 a:link {
   color: white; 
 }
-
 a:visited {
   color: yellow; 
 }
-
 a:hover {
   color: yellow;
   transform: scale(1.08); 
 }
-
 a:active {
-  color: red; /* во время клика */
+  color: red; 
+}
+
+@media (max-width: 768px){
+
+  h2{
+    padding-bottom: 16px;
+  }
+
 }

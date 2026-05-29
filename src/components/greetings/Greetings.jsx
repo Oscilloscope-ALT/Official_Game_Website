@@ -13,7 +13,7 @@ export default function Greetings(){
                 <div className='dialogue_container'>
                     <img src={DialogBackground} alt="background for dialogues"/>
                     <div className="text_container">
-                      <TypingText text="*   hi there, buddy! do you wanna hang out with me and my friends? it will be nice if you join us! 。.:☆*:･'(*⌒―⌒*)))"/> 
+                      <TypingText text="*  hi there, buddy! do you wanna hang out with me and my friends? it will be nice if you join us! 。.:☆*:･'(*⌒―⌒*)))"/> 
                     </div>
                 </div>
             </div>

@@ -2,13 +2,15 @@
   max-width: 1400px;
   width: 100%;
   min-height: 15vh;
-  margin: 0 auto;
   padding: 0;
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 16px 16px;
   box-sizing: border-box;
-  /* background-color: aquamarine; */
-  font-size: clamp(11px, 2vw, 24px);  
+  /* background-color: aquamarine; */ 
+}
+@media (max-width: 768px){
+  .head{
+    min-height: 15vw;
+  }
 }

@@ -5,6 +5,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 img{
     max-width: 100%;
@@ -13,7 +14,7 @@ img{
 }
 .about-img{
     padding: 16px;
-    height: 20vh;
+    height: 25vh;
     width: auto;
     display: flex;
 }
@@ -28,4 +29,27 @@ img{
     width: auto;
     display: flex;
     justify-content: center;
+}
+@media (max-width: 768px){
+    .about-content{
+        flex-direction: column; 
+        align-items: center;   
+        text-align: center; 
+    }
+    .about-img{
+    padding: 8px;
+    height: 25vw;
+    width: auto;
+    display: flex;
+    }
+    .about-img img {
+        float: left;
+    }
+    .about-end{
+    padding: 8px;
+    height: 10vw;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    }
 }
