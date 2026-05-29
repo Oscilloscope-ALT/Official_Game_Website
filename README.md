@@ -19,4 +19,4 @@ The site includes:
 * JavaScript
 * Vite
 
-![The main character](./src/assets/imgs/Shtrih_dialogue.png)
+![The main character](./src/assets/imgs/Shtrih_gialogue_mini.png)
