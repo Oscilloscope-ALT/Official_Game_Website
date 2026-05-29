@@ -7,7 +7,7 @@ export default function Soundtracks(){
         <section id='soundtracks'>
           <h2>soundtracks</h2>
           <div className="ost-intro">
-            We love music!
+            We really love music and want to share it with you! In this section you will find the tracks and their authors that we used in our game.
           </div>
           <div className="ost-content">
             <div className="cat-img">
